@@ -14,6 +14,7 @@
 		900A8DFE1E80C9F0005224E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900A8DFC1E80C9F0005224E0 /* LaunchScreen.storyboard */; };
 		900A8E091E80C9F0005224E0 /* emojiTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A8E081E80C9F0005224E0 /* emojiTableTests.swift */; };
 		900A8E141E80C9F0005224E0 /* emojiTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A8E131E80C9F0005224E0 /* emojiTableUITests.swift */; };
+		900A8E221E80CB6A005224E0 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A8E211E80CB6A005224E0 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		900A8E0F1E80C9F0005224E0 /* emojiTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojiTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		900A8E131E80C9F0005224E0 /* emojiTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiTableUITests.swift; sourceTree = "<group>"; };
 		900A8E151E80C9F0005224E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900A8E211E80CB6A005224E0 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		900A8DF21E80C9F0005224E0 /* emojiTable */ = {
 			isa = PBXGroup;
 			children = (
+				900A8E231E80CB76005224E0 /* VC */,
 				900A8DF31E80C9F0005224E0 /* AppDelegate.swift */,
 				900A8DF51E80C9F0005224E0 /* ViewController.swift */,
 				900A8DF71E80C9F0005224E0 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				900A8E151E80C9F0005224E0 /* Info.plist */,
 			);
 			path = emojiTableUITests;
+			sourceTree = "<group>";
+		};
+		900A8E231E80CB76005224E0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				900A8E211E80CB6A005224E0 /* CanvasViewController.swift */,
+			);
+			name = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				900A8DF61E80C9F0005224E0 /* ViewController.swift in Sources */,
+				900A8E221E80CB6A005224E0 /* CanvasViewController.swift in Sources */,
 				900A8DF41E80C9F0005224E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
